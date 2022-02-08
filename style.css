@@ -1,0 +1,72 @@
+h1 {
+  font-size: 600%;
+}
+
+span {
+  color: #1282a2;
+}
+
+#summary {
+  color: #034078;
+}
+
+.nav-item {
+  font-size: x-large;
+  padding-right: 3px;
+}
+
+html {
+  scroll-padding-top: 4rem;
+}
+
+.rounded-button {
+  width: 60px;
+  height: 60px;
+  background-color: #ffc300;
+  color: black;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: background 0.2s;
+  border: none;
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 10px; /* Place the button 30px from the right */
+  z-index: 99;
+}
+
+.rounded-button:hover {
+  background-color: white;
+}
+
+.darkSection {
+  background-color: #001219;
+}
+
+.navBar,
+.navbar-expand-md {
+  background-color: #001219;
+}
+
+#cardVote {
+  background-color: #6c63ff;
+}
+
+#cardApp {
+  background-color: #6c63ff;
+}
+
+#cardIot {
+  background-color: #6c63ff;
+}
+
+#cardWeb {
+  background-color: #6c63ff;
+}
+
+a {
+  color: blueviolet;
+}
