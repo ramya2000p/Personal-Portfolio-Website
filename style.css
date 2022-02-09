@@ -1,13 +1,5 @@
-h1 {
-  font-size: 600%;
-}
-
 span {
-  color: #1282a2;
-}
-
-#summary {
-  color: #034078;
+  color: #6c63ff;
 }
 
 .nav-item {
@@ -17,6 +9,87 @@ span {
 
 html {
   scroll-padding-top: 4rem;
+}
+
+:root {
+  --h1: #6c63ff;
+  --summary: #6c63ff;
+  --dark-sections: #ebedef;
+  --dark-font: black;
+  --light-sections: white;
+  --light-font: black;
+  /* --contrast-color: #6c63ff; */
+  --election: #bb3e03;
+  --carloan: #ee9b00;
+  --iot: #94d2bd;
+  --quote: #005f73;
+}
+
+.dark-theme {
+  --h1: white;
+  --summary: white;
+  --dark-sections: #001219;
+  --dark-font: white;
+  --light-sections: white;
+  --light-font: #212529;
+  /* --contrast-color: #6c63ff; */
+  --election: #6c63ff;
+  --carloan: #6c63ff;
+  --iot: #6c63ff;
+  --quote: #6c63ff;
+}
+
+.darkSection {
+  background-color: var(--dark-sections);
+  color: var(--dark-font);
+}
+
+#intro {
+  color: white;
+  background-color: #001219;
+}
+
+#intro h1 {
+  color: var(--h1);
+  font-size: 600%;
+}
+
+#intro h3 {
+  color: var(--summary);
+}
+
+.navBar,
+.navbar-expand-md {
+  background-color: #001219;
+}
+
+#cardVote {
+  background-color: var(--election);
+}
+
+#cardApp {
+  background-color: var(--carloan);
+}
+
+#cardIot {
+  background-color: var(--iot);
+}
+
+#cardWeb {
+  background-color: var(--quote);
+}
+
+a {
+  color: blueviolet;
+}
+
+#icon {
+  width: 30px;
+  cursor: pointer;
+}
+
+.logo {
+  color: var(--dark-font);
 }
 
 .rounded-button {
@@ -40,33 +113,4 @@ html {
 
 .rounded-button:hover {
   background-color: white;
-}
-
-.darkSection {
-  background-color: #001219;
-}
-
-.navBar,
-.navbar-expand-md {
-  background-color: #001219;
-}
-
-#cardVote {
-  background-color: #6c63ff;
-}
-
-#cardApp {
-  background-color: #6c63ff;
-}
-
-#cardIot {
-  background-color: #6c63ff;
-}
-
-#cardWeb {
-  background-color: #6c63ff;
-}
-
-a {
-  color: blueviolet;
 }
